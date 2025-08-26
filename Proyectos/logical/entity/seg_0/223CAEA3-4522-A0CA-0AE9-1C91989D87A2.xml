@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="223CAEA3-4522-A0CA-0AE9-1C91989D87A2" name="Beneficiario">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:25:10 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut" id="0E13A0B3-9DFD-1898-EF20-6EF93F552F24">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:26:00 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="1F400B84-39E2-BDCF-2A79-D83E63880AEB">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:26:00 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Nacimiento" id="5E32ECB6-2162-FB0D-6587-A73461B601D9">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:26:00 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="ABA90F98-BF5E-28CB-7437-68BBE6BD5BF9">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:26:01 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut1" id="EA9D2AFD-CC9E-3E7C-DE31-F8E474D8FE9E">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:35:22 UTC</createdTime>
+<generatorID>29156C6E-8872-AA6F-CE44-4356A400485B</generatorID>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<referedAttribute>B1A8F682-91E4-A081-1AD4-2ED8B09931FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC347741-5D45-9502-86C2-59BA158E27F6" name="Beneficiario PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:26:16 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E13A0B3-9DFD-1898-EF20-6EF93F552F24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

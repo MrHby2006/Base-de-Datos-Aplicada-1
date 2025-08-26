@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FA3232F-7010-BC41-8642-8DB4B53D4297" name="Recurso">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:23:52 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="ECBA648E-EF12-01CB-66E5-4A1AC527B165">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:24:05 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="3840B6CB-337A-4D16-59A3-45A9E14130AE">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:24:05 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="BEE8F929-265A-6A56-5579-07A658A0FFEE">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:24:05 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Proyecto" id="34C92D61-FFD5-91DC-832A-F209ABE87AA2">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:38:43 UTC</createdTime>
+<generatorID>75DBA1BC-9F84-0138-FD2D-189EAEBD5700</generatorID>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<referedAttribute>AD73A000-4723-341B-D9B6-0636046981A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA803D1A-D74C-658B-DA4C-4537F47A6632" name="Recurso PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:24:15 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECBA648E-EF12-01CB-66E5-4A1AC527B165</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

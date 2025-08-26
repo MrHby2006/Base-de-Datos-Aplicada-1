@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15D35929-8F3A-1DCF-A1E7-92E23BEFDB19" name="Proyecto">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:12:12 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Proyecto" id="AD73A000-4723-341B-D9B6-0636046981A4">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:12:21 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="D96966FE-AC1A-A04F-D89A-8829D0D8F506">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:12:21 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duracion" id="C9E342E7-5683-AB5E-4586-46A0B399542B">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:12:21 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Inicio" id="13FAB5EB-93E1-64A3-0612-FC36762B941E">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:12:21 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDC105A3-30A9-1501-F8E5-D1F845F6BDC3" name="Proyecto PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:12:48 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD73A000-4723-341B-D9B6-0636046981A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

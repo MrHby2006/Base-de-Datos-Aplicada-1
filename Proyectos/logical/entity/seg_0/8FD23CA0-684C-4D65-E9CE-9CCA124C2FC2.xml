@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FD23CA0-684C-4D65-E9CE-9CCA124C2FC2" name="Empleado">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:19:49 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut" id="B1A8F682-91E4-A081-1AD4-2ED8B09931FC">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:20:04 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="5C7462BA-F62A-A98D-AAE4-C330030EB016">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:20:04 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="056219B8-62D2-007C-7EFE-77B38B1BD4F7">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:20:04 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="E9A8A6F5-9A36-8B5D-B09A-C6F9F8271247">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:20:04 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cargo" id="6C8E1465-1363-B71E-9CCE-9C295C298FD3">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:20:04 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44474007-BCF3-F277-A451-241334C57F8E" name="Empleado PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-08-26 17:20:29 UTC</createdTime>
+<ownerDesignName>Proyectos</ownerDesignName>
+<engineerTo>
+<item key="AE4FBB90-2B4B-E65B-A3B5-257510B51BF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1A8F682-91E4-A081-1AD4-2ED8B09931FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
