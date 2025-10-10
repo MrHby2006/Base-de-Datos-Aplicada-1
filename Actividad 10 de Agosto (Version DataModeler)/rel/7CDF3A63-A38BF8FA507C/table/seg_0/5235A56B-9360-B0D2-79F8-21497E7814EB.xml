@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5235A56B-9360-B0D2-79F8-21497E7814EB" name="Propietario_Seguro">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Propietario_Rut_Propietario" id="DD53E637-8DE4-AA80-AFE7-9A8320AB8DB0">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FF5D0ED-5DCC-9ABC-16C6-28F0A0541F90" referredColumn="D9D22C55-D8ED-3165-2804-3D86D9DEBB29"/>
+</associations>
+</Column>
+<Column name="Seguro_Número_Seguro" id="E0181D44-6B57-1D1A-7611-B8F48692FD07">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ECC7ACD-A25F-562D-0375-AC1E4AB8E7BC" referredColumn="40E17831-F08A-7528-41B0-A33C26EC12DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3177B6E3-8AE7-1CA4-CA12-F46C05106723" name="Propietario_Seguro_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD53E637-8DE4-AA80-AFE7-9A8320AB8DB0"/>
+<colUsage columnID="E0181D44-6B57-1D1A-7611-B8F48692FD07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8A6FED0-E20B-B686-74DD-C949A061E90C" name="Propietario_Seguro_Propietario_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>815DB69C-C6B4-F338-16B8-0FE4F42715A5</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD53E637-8DE4-AA80-AFE7-9A8320AB8DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96AF6D1C-08B1-C81B-EAB9-5A13DD907784" name="Propietario_Seguro_Seguro_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>815DB69C-C6B4-F338-16B8-0FE4F42715A5</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0181D44-6B57-1D1A-7611-B8F48692FD07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

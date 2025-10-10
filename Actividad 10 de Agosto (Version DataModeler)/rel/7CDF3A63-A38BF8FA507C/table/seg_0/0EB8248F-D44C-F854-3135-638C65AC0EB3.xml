@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EB8248F-D44C-F854-3135-638C65AC0EB3" name="Seguro">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>FBB8BC03-A54F-E26B-E966-C95A2A1A04F8</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Número_Seguro" id="40E17831-F08A-7528-41B0-A33C26EC12DF">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>FD343841-D024-B529-D403-D2ECA1373984</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Monto_Seguro" id="A08AAC1D-36D8-DC0F-49E3-69F1AEB8C8DC">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>186943F2-25F5-91B8-F1AA-FBC4A22839FF</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vehiculo_Patente_Vehiculo" id="04813C58-EA2F-C60B-FEBB-790BB992AD34">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>8AE1A204-83A8-A079-5E92-906A95CE3918</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDE2533D-16E8-4CD2-61B3-948B004DFE11" referredColumn="E871CE10-B7EC-715C-F424-2B1DDF77F18D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="575BF11B-B2E4-3272-5BB8-65349BB8BEF1" name="Seguro_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>DDA264F8-9475-A4C5-6FD6-EC3598587A3E</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40E17831-F08A-7528-41B0-A33C26EC12DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48AB40DF-8E4A-81BA-8E1F-366D2AFC2B13" name="Seguro_Vehiculo_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>3447E85D-6463-BF84-0CBB-4ED165AE0433</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04813C58-EA2F-C60B-FEBB-790BB992AD34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

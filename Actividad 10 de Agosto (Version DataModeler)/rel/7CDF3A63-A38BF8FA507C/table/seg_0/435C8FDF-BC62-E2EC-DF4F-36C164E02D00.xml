@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="435C8FDF-BC62-E2EC-DF4F-36C164E02D00" name="Camión">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>821D09F4-0993-70B0-C8E5-718E4D5F2576</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Patente_Vehiculo" id="9D5D24D4-3768-EF95-7B65-5390946BF51D">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>50919BD4-ED6F-2BFD-CAB3-B733D1D0214E</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="764D4BE3-05F8-1792-08C2-7F8AD7715ADE" referredColumn="E871CE10-B7EC-715C-F424-2B1DDF77F18D"/>
+</associations>
+</Column>
+<Column name="Tamaño_Camión" id="489F3F9F-70B6-86EE-70AD-CB55A8DBA8BB">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>0DCD8E7F-D7D6-844A-C87E-CB62FC169AD7</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca_Camión" id="1A2D4909-A1CC-81D4-C931-4EB84BA59705">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>690D7185-CA86-FB9C-57EE-D3BE12681AC5</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF706451-0F89-F847-484B-2D88F9883552" name="Camión_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>ECA71064-2F87-4535-070E-1322C9EB7E88</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D5D24D4-3768-EF95-7B65-5390946BF51D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E413236-4967-B828-1C96-BC70EBAEC66B" name="Camión_Vehiculo_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>C50419ED-B636-64A6-5346-AE327E722B5A</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D5D24D4-3768-EF95-7B65-5390946BF51D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

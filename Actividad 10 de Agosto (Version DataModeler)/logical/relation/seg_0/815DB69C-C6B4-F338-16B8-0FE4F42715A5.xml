@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Propietario_Seguro" directorySegmentName="seg_0" id="815DB69C-C6B4-F338-16B8-0FE4F42715A5">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:27:27 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Contrata</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B9ED1444-89E0-7611-FEB0-E7C412CBD485</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FBB8BC03-A54F-E26B-E966-C95A2A1A04F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C7D1DEC-C489-27C8-30BB-A9DE4A0389D5" name="Empresa">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>DEA2391E-3C44-3661-7115-919AB620169C</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rut_Propietario" id="4906AF1C-0F0C-A86A-2434-FBDE26ADF755">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>482978AA-ED03-D627-4D5F-34E2235024A8</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B2B213-0493-DFA8-71B9-7A800E31D497" referredColumn="D9D22C55-D8ED-3165-2804-3D86D9DEBB29"/>
+</associations>
+</Column>
+<Column name="Rut_Empresa" id="06E5F372-A862-94C2-93E1-FC239F88CB42">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>3D8D522E-6729-5ADB-89DA-B5ACFD82C946</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Empresa" id="FD718A91-FECF-0CD5-9759-1B2478B37A53">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>1724CFA7-4C70-2000-3F51-F441C8A7FEBD</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D2136B9-51AA-44B3-E7E1-1DF1EF5CDA66" name="Empresa_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>CC8FEC5C-2478-8EA2-96B9-3AA79DD0466A</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4906AF1C-0F0C-A86A-2434-FBDE26ADF755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3555196E-9BA3-2E86-8BE6-4299A859B33C" name="Empresa_PKv1">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>639205AA-A2ED-AB7D-194A-3FF9F00DC4A9</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E5F372-A862-94C2-93E1-FC239F88CB42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB3DD90-04BB-5190-C555-611AEA0514C9" name="Empresa_Propietario_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>ABF2C64F-0110-F7C8-D09E-379D258A9069</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4906AF1C-0F0C-A86A-2434-FBDE26ADF755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

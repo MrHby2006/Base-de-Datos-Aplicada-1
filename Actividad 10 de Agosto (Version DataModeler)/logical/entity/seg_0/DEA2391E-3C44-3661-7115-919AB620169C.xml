@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEA2391E-3C44-3661-7115-919AB620169C" name="Empresa">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:10:59 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B9ED1444-89E0-7611-FEB0-E7C412CBD485</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut_Empresa" id="3D8D522E-6729-5ADB-89DA-B5ACFD82C946">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:14:27 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Empresa" id="1724CFA7-4C70-2000-3F51-F441C8A7FEBD">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:14:27 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="639205AA-A2ED-AB7D-194A-3FF9F00DC4A9" name="Empresa PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:14:31 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D8D522E-6729-5ADB-89DA-B5ACFD82C946</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

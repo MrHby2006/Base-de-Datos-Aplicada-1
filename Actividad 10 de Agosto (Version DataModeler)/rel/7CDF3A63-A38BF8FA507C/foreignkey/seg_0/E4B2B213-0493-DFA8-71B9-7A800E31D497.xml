@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4B2B213-0493-DFA8-71B9-7A800E31D497" containerWithKeyObject="5C7D1DEC-C489-27C8-30BB-A9DE4A0389D5" localFKIndex="6BB3DD90-04BB-5190-C555-611AEA0514C9" name="Empresa_Propietario_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>ABF2C64F-0110-F7C8-D09E-379D258A9069</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<referredTableLongName>Propietario</referredTableLongName>
+<arc>E589F6D9-F98B-F747-70B3-553CBAB836D6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36CDC070-9CE4-BC31-CE16-9B5224075862</referredTableID>
+<keyObject>6E127C3A-08C5-9E8E-8416-3B57A6D231AA</keyObject>
+<referredKeyID>6E127C3A-08C5-9E8E-8416-3B57A6D231AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rut_Propietario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

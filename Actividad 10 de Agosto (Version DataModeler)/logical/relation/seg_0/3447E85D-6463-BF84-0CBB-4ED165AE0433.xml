@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vehiculo_Seguro" directorySegmentName="seg_0" id="3447E85D-6463-BF84-0CBB-4ED165AE0433">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:27:49 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<sourcePk>ECA71064-2F87-4535-070E-1322C9EB7E88</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Asigna</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1E20D09-AA2F-1A2E-8F4B-90A019CF3D81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FBB8BC03-A54F-E26B-E966-C95A2A1A04F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FF5D0ED-5DCC-9ABC-16C6-28F0A0541F90" containerWithKeyObject="5235A56B-9360-B0D2-79F8-21497E7814EB" localFKIndex="E8A6FED0-E20B-B686-74DD-C949A061E90C" name="Propietario_Seguro_Propietario_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>815DB69C-C6B4-F338-16B8-0FE4F42715A5</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<referredTableLongName>Propietario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36CDC070-9CE4-BC31-CE16-9B5224075862</referredTableID>
+<keyObject>6E127C3A-08C5-9E8E-8416-3B57A6D231AA</keyObject>
+<referredKeyID>6E127C3A-08C5-9E8E-8416-3B57A6D231AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rut_Propietario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

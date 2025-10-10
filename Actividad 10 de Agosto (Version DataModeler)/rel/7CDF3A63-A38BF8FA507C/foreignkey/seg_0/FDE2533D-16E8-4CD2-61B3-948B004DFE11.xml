@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDE2533D-16E8-4CD2-61B3-948B004DFE11" containerWithKeyObject="0EB8248F-D44C-F854-3135-638C65AC0EB3" localFKIndex="48AB40DF-8E4A-81BA-8E1F-366D2AFC2B13" name="Seguro_Vehiculo_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>3447E85D-6463-BF84-0CBB-4ED165AE0433</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<referredTableLongName>Vehiculo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3977802-23C2-4E3F-9D87-DB83E74E6F6D</referredTableID>
+<keyObject>60FEA45F-767D-641A-D373-3C265FECE9F7</keyObject>
+<referredKeyID>60FEA45F-767D-641A-D373-3C265FECE9F7</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Patente_Vehiculo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

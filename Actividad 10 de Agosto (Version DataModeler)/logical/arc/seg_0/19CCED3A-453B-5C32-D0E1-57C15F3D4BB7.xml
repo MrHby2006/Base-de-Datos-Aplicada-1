@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="19CCED3A-453B-5C32-D0E1-57C15F3D4BB7" name="Arc_2">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:25:55 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<entity>F1E20D09-AA2F-1A2E-8F4B-90A019CF3D81</entity>
+<relations>
+<relationID>C50419ED-B636-64A6-5346-AE327E722B5A</relationID>
+<relationID>DA8A9FCB-5613-8B60-9583-2C198F962C60</relationID>
+</relations>
+</Arc>

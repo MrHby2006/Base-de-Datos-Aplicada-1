@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="E589F6D9-F98B-F747-70B3-553CBAB836D6" name="Arc_1">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>36CDC070-9CE4-BC31-CE16-9B5224075862</table>
+<fkeys>
+<fkeyID>E906383C-D789-F7C6-E478-3E26EB1B78BB</fkeyID>
+<fkeyID>9A291205-1148-BFAD-DCB9-9ECD347D4A40</fkeyID>
+<fkeyID>E4B2B213-0493-DFA8-71B9-7A800E31D497</fkeyID>
+</fkeys>
+</FKArc>

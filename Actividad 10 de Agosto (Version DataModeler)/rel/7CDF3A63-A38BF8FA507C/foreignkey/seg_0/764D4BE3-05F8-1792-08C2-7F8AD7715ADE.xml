@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="764D4BE3-05F8-1792-08C2-7F8AD7715ADE" containerWithKeyObject="435C8FDF-BC62-E2EC-DF4F-36C164E02D00" localFKIndex="2E413236-4967-B828-1C96-BC70EBAEC66B" name="Camión_Vehiculo_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:31:01 UTC</createdTime>
+<generatorID>C50419ED-B636-64A6-5346-AE327E722B5A</generatorID>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<referredTableLongName>Vehiculo</referredTableLongName>
+<arc>75E25322-8922-1359-8F10-F84299B9CC9B</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3977802-23C2-4E3F-9D87-DB83E74E6F6D</referredTableID>
+<keyObject>60FEA45F-767D-641A-D373-3C265FECE9F7</keyObject>
+<referredKeyID>60FEA45F-767D-641A-D373-3C265FECE9F7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Patente_Vehiculo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

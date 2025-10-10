@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Propietario_Vehiculo" directorySegmentName="seg_0" id="ED6C5A34-CD1A-304B-21AB-53616DD0F56D">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-10 16:26:30 UTC</createdTime>
+<ownerDesignName>Actividad 10 de Agosto (Version DataModeler)</ownerDesignName>
+<engineerTo>
+<item key="7CDF3A63-ED07-9099-11F4-A38BF8FA507C" value="true"/>
+</engineerTo>
+<sourcePk>CC8FEC5C-2478-8EA2-96B9-3AA79DD0466A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Dueño</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9ED1444-89E0-7611-FEB0-E7C412CBD485</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F1E20D09-AA2F-1A2E-8F4B-90A019CF3D81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
