@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relación Salida-Vuelos" directorySegmentName="seg_0" id="87E4C1A3-AD3F-8551-E5DB-3A5C98F2F91B">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:35:46 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<targetPk>53578546-C28F-EB4E-6024-617F3701ACA8</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>378E52BD-EEC8-8F40-608B-2BDBE6DE0E1B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AEC8CDB1-F9B5-DF21-0C2A-4329E737C670</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

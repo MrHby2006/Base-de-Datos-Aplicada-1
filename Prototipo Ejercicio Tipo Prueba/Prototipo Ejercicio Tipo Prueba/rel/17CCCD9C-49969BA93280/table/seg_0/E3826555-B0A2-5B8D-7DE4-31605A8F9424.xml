@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3826555-B0A2-5B8D-7DE4-31605A8F9424" name="Por_Mes">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>23638BC2-E72E-F935-D37F-21BCAE7EBADB</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rut" id="90C9ED77-60D9-DD5E-5B0D-7F5E604517D3">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>C571DA4E-40BB-184B-473F-57BBF9415090</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16EDD5F7-54A0-215D-DEB9-C18D417D4034" referredColumn="06571990-0A4C-3019-3055-E34924217CAA"/>
+</associations>
+</Column>
+<Column name="Valor_por_Hora" id="F9AB280C-3615-1503-9BE8-7AD04AE0C6B7">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>E23254EA-AF28-772F-F3B9-2F294858B3A3</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C20F4464-6913-628A-F76D-63453A3986F1" name="Por_Mes_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>7F800B00-C878-A30A-A08C-69420D32E75D</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90C9ED77-60D9-DD5E-5B0D-7F5E604517D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB52DA12-1370-3DF1-E626-F0A79E27F4F3" name="Por_Mes_Piloto_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>BEE32481-1546-5201-00C4-9FD3B81E8791</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90C9ED77-60D9-DD5E-5B0D-7F5E604517D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relación Piloto-Vuelos" directorySegmentName="seg_0" id="4050D6FE-87C8-844D-B516-923CEDA82A34">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:35:10 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<sourcePk>7F800B00-C878-A30A-A08C-69420D32E75D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3D161EE-F3B8-6266-F730-98FAD6B62504</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AEC8CDB1-F9B5-DF21-0C2A-4329E737C670</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

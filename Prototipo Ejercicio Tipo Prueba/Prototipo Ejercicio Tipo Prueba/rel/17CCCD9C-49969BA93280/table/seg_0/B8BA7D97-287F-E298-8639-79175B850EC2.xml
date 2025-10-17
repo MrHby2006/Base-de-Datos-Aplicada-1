@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8BA7D97-287F-E298-8639-79175B850EC2" name="Tramos">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>F6D62F66-ABCB-7637-F7BC-2D1297976E73</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Distancia_Recorrida" id="56A0D14B-7AAF-B032-5747-084820BE6A09">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>0CAF2B6F-C2FA-EB2F-BFA6-8B1974EEADC2</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duración_de_Vuelo" id="E85FDF7C-0646-7B57-0557-3CAFBB15A193">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>1E838E96-8868-DC21-58BF-4FFEED51CD19</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aeropuerto_de_Donde_Sale" id="71DB825D-58E9-B075-2E03-CD073E7D695E">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>D3273BBA-1378-67A3-07C1-EC46514FC757</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_de_Salida" id="9C07C5A7-20E6-BD0E-11C9-F374E86441D7">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>2E46DE4A-6EE3-A093-F2EF-810CAC9044DB</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vuelos_Número_de_Identificación" id="0180C068-432B-F3EB-C393-7FCEB52B5F7E">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>5F2D9E69-F1BE-7FB6-2133-660BF844FDF4</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00407C6F-C8FE-12B4-5C9F-ACCA8772FC25" referredColumn="21833DA7-527F-A4C9-FEC5-4FBB1183B518"/>
+</associations>
+</Column>
+<Column name="Aeropuertos_Sigla_de_Identificación" id="0AC3F2EB-F00C-6CD1-D0E2-B27ED300DF82">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>71CF7F62-EDD7-D1A4-96E3-09CB436977BA</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C835284-F7AF-65B4-6B2C-EE100AA3D207" referredColumn="B6C00514-AB18-8DE7-147B-0FFAA1F05F10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A598221-6FE8-9564-48D5-9D0C7B2BD9D1" name="Tramos_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>4B656973-8830-82FB-DCA6-E26F4A78849D</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56A0D14B-7AAF-B032-5747-084820BE6A09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4267E9C-5C6D-00D7-72B0-D107A11D6295" name="Tramos_Aeropuertos_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>7ED20661-E725-458A-902A-3CE421C853EA</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC3F2EB-F00C-6CD1-D0E2-B27ED300DF82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73826141-96F0-237A-A8CE-3E6AB6C31971" name="Tramos_Vuelos_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>54EC7F23-E48D-F854-5A61-FC1B18B875D5</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0180C068-432B-F3EB-C393-7FCEB52B5F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

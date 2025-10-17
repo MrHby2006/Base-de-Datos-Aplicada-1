@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6D62F66-ABCB-7637-F7BC-2D1297976E73" name="Tramos">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:19:15 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Distancia_Recorrida" id="0CAF2B6F-C2FA-EB2F-BFA6-8B1974EEADC2">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:19:43 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duración_de_Vuelo" id="1E838E96-8868-DC21-58BF-4FFEED51CD19">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:19:44 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Aeropuerto_de_Donde_Sale" id="D3273BBA-1378-67A3-07C1-EC46514FC757">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:19:44 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_de_Salida" id="2E46DE4A-6EE3-A093-F2EF-810CAC9044DB">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:21:20 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Número_de_Identificación" id="5F2D9E69-F1BE-7FB6-2133-660BF844FDF4">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:24:07 UTC</createdTime>
+<generatorID>54EC7F23-E48D-F854-5A61-FC1B18B875D5</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<referedAttribute>FDB4BFA5-4832-84E0-3CCB-FA7694562BE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sigla_de_Identificación" id="71CF7F62-EDD7-D1A4-96E3-09CB436977BA">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:44:18 UTC</createdTime>
+<generatorID>7ED20661-E725-458A-902A-3CE421C853EA</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<referedAttribute>84AF5B1A-170E-43B4-BE5C-B80F4D361E84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B656973-8830-82FB-DCA6-E26F4A78849D" name="Tramos PK">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:19:53 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CAF2B6F-C2FA-EB2F-BFA6-8B1974EEADC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

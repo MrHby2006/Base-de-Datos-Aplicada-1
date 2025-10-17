@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3754FD7A-ACCA-187C-2EE3-3E90197B8F41" containerWithKeyObject="E614E0FE-EB88-9A18-6A18-89EFB5F3DBC9" localFKIndex="A1D8F28B-49A3-13E9-8A4D-76CA5E6A007E" name="De_Planta_Piloto_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>5ABD5C0D-629E-2A8E-6ECA-20A7449B4E56</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<referredTableLongName>Piloto</referredTableLongName>
+<arc>9AE41504-5F8D-C069-50DD-21891CE39B6F</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>143DBD08-0003-056F-5312-589C5799C655</referredTableID>
+<keyObject>25CD7B4C-7FC1-6795-0A39-965FA8F47FE9</keyObject>
+<referredKeyID>25CD7B4C-7FC1-6795-0A39-965FA8F47FE9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

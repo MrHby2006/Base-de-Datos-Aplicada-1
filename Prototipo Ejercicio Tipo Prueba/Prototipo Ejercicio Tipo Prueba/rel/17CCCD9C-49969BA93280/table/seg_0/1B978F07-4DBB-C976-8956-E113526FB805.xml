@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B978F07-4DBB-C976-8956-E113526FB805" name="Salida">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>378E52BD-EEC8-8F40-608B-2BDBE6DE0E1B</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fecha_de_Salida" id="C7E6AA17-7924-AD12-11D2-669076623132">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>6A9B26A8-934E-03DC-FA13-1DDB286AD63B</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_de_Salida" id="1EE14F0F-138D-8CE9-17A6-1F9C45037A02">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>1497B24F-4EB9-49EA-ACE7-8F7C25694003</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vuelos_Número_de_Identificación" id="3417C0FF-8DE7-C139-DBD2-AAE8A4D5715C">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>8C823851-7430-A2FC-2491-3CF100FCCE5A</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22FCE186-59EB-79AA-DF1A-088B219A7788" referredColumn="21833DA7-527F-A4C9-FEC5-4FBB1183B518"/>
+</associations>
+</Column>
+<Column name="Salida_ID" id="C860AD37-BB5D-31E7-557B-3D533A7A8876">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="783D3E14-BDA3-A0F8-F24F-75564C1C03FE" name="Salida_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C860AD37-BB5D-31E7-557B-3D533A7A8876"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1071FA50-EA95-82F5-1F4C-AFB92B3B5208" name="Salida__IDX">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>87E4C1A3-AD3F-8551-E5DB-3A5C98F2F91B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3417C0FF-8DE7-C139-DBD2-AAE8A4D5715C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09162780-BCC7-A87F-611E-BB21CF3635C4" name="Salida_Vuelos_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>87E4C1A3-AD3F-8551-E5DB-3A5C98F2F91B</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3417C0FF-8DE7-C139-DBD2-AAE8A4D5715C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B605F94-96BE-CF1E-91DA-8578DF3B663E" name="Llegada">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 21:53:12 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha_de_Llegada" id="AD97DA66-300D-8001-EC41-A73BAAC1C54E">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 21:53:20 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_de_Llegada" id="095AB30D-A188-4B32-B9D2-A44FF6698701">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 21:53:20 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Número_de_Identificación" id="3BF8B758-9830-532C-751B-4EFA62E04477">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:36:17 UTC</createdTime>
+<generatorID>6072BEA9-CF19-378E-D425-AA5C11A34F9E</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<referedAttribute>FDB4BFA5-4832-84E0-3CCB-FA7694562BE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

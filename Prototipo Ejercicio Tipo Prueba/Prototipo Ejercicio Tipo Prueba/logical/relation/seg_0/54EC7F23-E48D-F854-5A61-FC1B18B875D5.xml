@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relación Vuelos-Tramos" directorySegmentName="seg_0" id="54EC7F23-E48D-F854-5A61-FC1B18B875D5">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:24:07 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<sourcePk>53578546-C28F-EB4E-6024-617F3701ACA8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AEC8CDB1-F9B5-DF21-0C2A-4329E737C670</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F6D62F66-ABCB-7637-F7BC-2D1297976E73</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

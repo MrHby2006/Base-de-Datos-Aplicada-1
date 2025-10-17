@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEC8CDB1-F9B5-DF21-0C2A-4329E737C670" name="Vuelos">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 21:28:41 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Número_de_Identificación" id="FDB4BFA5-4832-84E0-3CCB-FA7694562BE0">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 21:32:18 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Número_Identificador" id="5A8874FD-3FE4-6EB6-45E2-7FD128887356">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:31:52 UTC</createdTime>
+<generatorID>23DB4C1F-181C-7F1C-CB3D-22B947C5C8F8</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<referedAttribute>7BF794A9-C121-63C8-5EE2-82A3B29431F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut" id="92B9353E-B941-5EC7-DA54-FADB245EEF9E">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:35:10 UTC</createdTime>
+<generatorID>4050D6FE-87C8-844D-B516-923CEDA82A34</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<referedAttribute>C571DA4E-40BB-184B-473F-57BBF9415090</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53578546-C28F-EB4E-6024-617F3701ACA8" name="Vuelos PK">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 21:33:15 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDB4BFA5-4832-84E0-3CCB-FA7694562BE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

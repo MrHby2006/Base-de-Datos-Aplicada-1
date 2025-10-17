@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00407C6F-C8FE-12B4-5C9F-ACCA8772FC25" containerWithKeyObject="B8BA7D97-287F-E298-8639-79175B850EC2" localFKIndex="73826141-96F0-237A-A8CE-3E6AB6C31971" name="Tramos_Vuelos_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>54EC7F23-E48D-F854-5A61-FC1B18B875D5</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<referredTableLongName>Vuelos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>409859D2-C7E8-ABD6-5DDB-656E46DA0992</referredTableID>
+<keyObject>032A7EE0-3771-7830-695D-671815386BB9</keyObject>
+<referredKeyID>032A7EE0-3771-7830-695D-671815386BB9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Número_de_Identificación</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

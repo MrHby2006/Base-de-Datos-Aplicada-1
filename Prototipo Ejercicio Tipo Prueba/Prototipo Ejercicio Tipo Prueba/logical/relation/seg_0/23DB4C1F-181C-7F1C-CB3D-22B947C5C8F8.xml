@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relación Avión-Vuelos" directorySegmentName="seg_0" id="23DB4C1F-181C-7F1C-CB3D-22B947C5C8F8">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-15 22:31:52 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<engineerTo>
+<item key="17CCCD9C-D231-E9E6-2ECE-49969BA93280" value="true"/>
+</engineerTo>
+<sourcePk>64D7C657-AA04-9DCD-61D3-5850E3929ADF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6A01C5F-B6C0-F9DF-FA5A-18CBE488AA43</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AEC8CDB1-F9B5-DF21-0C2A-4329E737C670</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

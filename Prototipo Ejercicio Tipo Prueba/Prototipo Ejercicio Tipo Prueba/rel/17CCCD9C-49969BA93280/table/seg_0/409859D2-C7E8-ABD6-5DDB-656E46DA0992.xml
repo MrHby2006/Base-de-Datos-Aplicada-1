@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="409859D2-C7E8-ABD6-5DDB-656E46DA0992" name="Vuelos">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>AEC8CDB1-F9B5-DF21-0C2A-4329E737C670</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Número_de_Identificación" id="21833DA7-527F-A4C9-FEC5-4FBB1183B518">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>FDB4BFA5-4832-84E0-3CCB-FA7694562BE0</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avión_Número_Identificador" id="DE1C40B0-2A15-D526-2A7C-FA2C743B6674">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>5A8874FD-3FE4-6EB6-45E2-7FD128887356</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D678CC0-E05D-E46D-9465-F5771C4ADF72" referredColumn="E5B1794E-C2EA-33CF-F71A-A329343F6620"/>
+</associations>
+</Column>
+<Column name="Piloto_Rut" id="40C56F59-8189-D3B7-F92C-2F4CD5A7C2C4">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>92B9353E-B941-5EC7-DA54-FADB245EEF9E</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B0E2CC2-3B54-083B-7BE1-7B833F877809" referredColumn="06571990-0A4C-3019-3055-E34924217CAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="032A7EE0-3771-7830-695D-671815386BB9" name="Vuelos_PK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>53578546-C28F-EB4E-6024-617F3701ACA8</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21833DA7-527F-A4C9-FEC5-4FBB1183B518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73878F93-E303-BDD5-DCB2-2EE785D4AA6C" name="Vuelos__IDX">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6072BEA9-CF19-378E-D425-AA5C11A34F9E</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="876ADDBA-8DE1-DE45-5E1C-95E3F794FE6B" name="Vuelos__IDXv1">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>87E4C1A3-AD3F-8551-E5DB-3A5C98F2F91B</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="27862611-286F-3B4A-4402-FF94167C3994" name="Vuelos_Avión_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>23DB4C1F-181C-7F1C-CB3D-22B947C5C8F8</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE1C40B0-2A15-D526-2A7C-FA2C743B6674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D138574E-A0F4-03A0-4DAD-70B4F72FFFB4" name="Vuelos_Piloto_FK">
+<createdBy>SSDD</createdBy>
+<createdTime>2025-10-17 15:42:45 UTC</createdTime>
+<generatorID>4050D6FE-87C8-844D-B516-923CEDA82A34</generatorID>
+<ownerDesignName>Prototipo Ejercicio Tipo Prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C56F59-8189-D3B7-F92C-2F4CD5A7C2C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
