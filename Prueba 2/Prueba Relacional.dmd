@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Prueba Relacional" id="157A53B7-AED5-F016-FBA1-CC05AF27A209" version="3.5">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:08:55 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>157A53B7-AED5-F016-FBA1-CC05AF27A209</designId>
+</OSDM_Design>

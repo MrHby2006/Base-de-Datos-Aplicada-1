@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03CA9C9C-486E-10B8-6992-4E173C6A7DA7" name="Equipo">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:17:09 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo_Equipo" id="6FA560AA-14D5-305F-D8F5-DF14808D22B7">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:18:01 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado_Equipo" id="17C0958C-5751-DEF9-0273-CF1A654690CA">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:21:35 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_Contrato" id="CC837C55-4074-7551-82DC-ED735B77988F">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 22:20:23 UTC</createdTime>
+<generatorID>BB8C4FD4-63A2-FD83-162B-AC1CDACB1F19</generatorID>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<referedAttribute>3298F7D5-352C-FFD7-226D-1DB6CE529981</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95D61A61-DF35-AF09-5EF8-1AFFDD9A9E71" name="Equipo PK">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:18:43 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FA560AA-14D5-305F-D8F5-DF14808D22B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

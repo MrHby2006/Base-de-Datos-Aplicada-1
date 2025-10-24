@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0BFF5A5-E299-D716-7BE1-C55CA287ABAB" name="Contrato">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:38:15 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero_Contrato" id="3298F7D5-352C-FFD7-226D-1DB6CE529981">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:38:29 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio_Aplicado" id="CDC29668-2106-8988-23A5-43EFD44BD26D">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:45:37 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad_Arrendada" id="CDA5053D-085B-54FA-06DF-F16A5F3410CC">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:49:38 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Inicio" id="F922B0CA-6570-DE1F-DD0A-BC82E002988D">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:59:17 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Término" id="0D0715F8-2AC9-D948-E9E4-1ABDF0A1C185">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:59:17 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D8AC2DA-878C-F848-8078-EA0035860F2D" name="Contrato PK">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:45:51 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3298F7D5-352C-FFD7-226D-1DB6CE529981</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

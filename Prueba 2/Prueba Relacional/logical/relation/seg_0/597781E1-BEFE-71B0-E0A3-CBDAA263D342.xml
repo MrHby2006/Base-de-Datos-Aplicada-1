@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relación Empleado-Contrato" directorySegmentName="seg_0" id="597781E1-BEFE-71B0-E0A3-CBDAA263D342">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 22:12:14 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Relacionado con el cliente mediante</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>26987090-5526-CD42-CCCB-6096315B7FAD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0BFF5A5-E299-D716-7BE1-C55CA287ABAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

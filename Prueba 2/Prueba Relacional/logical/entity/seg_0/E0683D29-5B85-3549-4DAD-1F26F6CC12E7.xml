@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0683D29-5B85-3549-4DAD-1F26F6CC12E7" name="Pago">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:57:28 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Método_Pago" id="B48F11C5-979F-FBA9-97DE-60DE5EFF55E0">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:57:32 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monto_Total" id="15147ED7-7633-2269-84FB-BBC56958438C">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:57:32 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Pago" id="F7CE0932-D94F-CF35-11EF-4BA04AA826A9">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 21:57:32 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_Contrato" id="AF4A3E81-37BA-F481-742E-1FF2C2AF21FD">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 22:03:23 UTC</createdTime>
+<generatorID>FE5B2CF6-3D58-6315-33BD-98F305EFB24C</generatorID>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<referedAttribute>3298F7D5-352C-FFD7-226D-1DB6CE529981</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

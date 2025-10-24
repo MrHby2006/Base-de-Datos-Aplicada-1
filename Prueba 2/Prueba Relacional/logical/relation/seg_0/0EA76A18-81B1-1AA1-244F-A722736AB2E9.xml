@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relación Equipo-Mantenimiento" directorySegmentName="seg_0" id="0EA76A18-81B1-1AA1-244F-A722736AB2E9">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 22:07:46 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<sourcePk>95D61A61-DF35-AF09-5EF8-1AFFDD9A9E71</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>03CA9C9C-486E-10B8-6992-4E173C6A7DA7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F09B8B14-F178-1425-98A1-887D8F014A76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

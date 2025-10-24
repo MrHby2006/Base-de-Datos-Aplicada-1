@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="26CECB58-0628-F0E9-2CF9-334784CE13B3" name="Arc_1">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 22:01:37 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<entity>03CA9C9C-486E-10B8-6992-4E173C6A7DA7</entity>
+<relations>
+<relationID>E2CA9034-BBDB-9BA7-05A0-5D3D98523692</relationID>
+<relationID>6D4A6248-06B3-AC78-AE6B-5B65B8525807</relationID>
+</relations>
+</Arc>

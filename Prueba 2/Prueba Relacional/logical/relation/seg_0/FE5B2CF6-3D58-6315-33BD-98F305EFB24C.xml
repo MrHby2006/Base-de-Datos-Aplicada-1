@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relación Contrato-Pago" directorySegmentName="seg_0" id="FE5B2CF6-3D58-6315-33BD-98F305EFB24C">
+<createdBy>56967</createdBy>
+<createdTime>2025-10-21 22:03:23 UTC</createdTime>
+<ownerDesignName>Prueba Relacional</ownerDesignName>
+<engineerTo>
+<item key="C91C5AB4-D801-0216-DED0-07F05F18BFE3" value="true"/>
+</engineerTo>
+<sourcePk>7D8AC2DA-878C-F848-8078-EA0035860F2D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C0BFF5A5-E299-D716-7BE1-C55CA287ABAB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E0683D29-5B85-3549-4DAD-1F26F6CC12E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
