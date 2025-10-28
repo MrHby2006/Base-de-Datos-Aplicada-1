@@ -6,3 +6,11 @@ telefono number (10)
 );
 
 DESCRIBE cliente3
+
+insert into cliente3 values ('14234567-1','Jose','Los Tucanes 444','288');
+insert into cliente3 values ('14234567-1','Jose','Los Tucanes 555','399');
+SELECT * FROM cliente3;
+--ESTE ES COMENTARIO EN UNA LINEA CON DOBLE GUIÓN
+
+/* PARA COMENTAR VARIAS LINEAS SE HACE
+CON SLASH-ASTERISCO
