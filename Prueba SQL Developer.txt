@@ -1,0 +1,8 @@
+Create table cliente3 (
+run varchar2 (15) primary key,
+nombre varchar2 (50) not null,
+direccion varchar (60) not NULL,
+telefono number (10)
+);
+
+DESCRIBE cliente3
