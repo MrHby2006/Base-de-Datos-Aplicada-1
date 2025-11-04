@@ -1,0 +1,25 @@
+alter session set "_ORACLE_SCRIPT" = true;
+
+CREATE USER alumno IDENTIFIED BY "Duoc2025" --Crear usuario de nombre alumno y contraseña Duoc2025 
+DEFAULT TABLESPACE "USERS"
+TEMPORARY TABLESPACE "TEMP";
+ALTER USER alumno QUOTA UNLIMITED ON USERS;
+GRANT CREATE SESSION TO alumno;
+GRANT "RESOURCE" TO alumno;
+ALTER USER alumno DEFAULT ROLE "RESOURCE";
+
+--Creació de tablas
+
+CREATE TABLE cliente(
+run varchar2(15) primary key,
+nombre varchar2(50) not null,
+direccion varchar2(60) not null,
+telefono varchar2(10)
+);
+
+CREATE TABLE vehiculo(
+patente varchar2(8) primary key,
+marca varchar2(40) not null,
+modelo varchar2(50) not null,
+run varchar2(15), foreign key(run) references cliente(run) -- Clave foranea de cliente (parece sacado de los modelos relacionales)
+);
