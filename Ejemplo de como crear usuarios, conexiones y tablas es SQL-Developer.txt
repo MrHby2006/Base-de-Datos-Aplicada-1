@@ -1,5 +1,7 @@
 alter session set "_ORACLE_SCRIPT" = true;
 
+-- CREAR USUARIO
+
 CREATE USER alumno IDENTIFIED BY "Duoc2025" --Crear usuario de nombre alumno y contraseña Duoc2025 
 DEFAULT TABLESPACE "USERS"
 TEMPORARY TABLESPACE "TEMP";
@@ -23,3 +25,19 @@ marca varchar2(40) not null,
 modelo varchar2(50) not null,
 run varchar2(15), foreign key(run) references cliente(run) -- Clave foranea de cliente (parece sacado de los modelos relacionales)
 );
+
+-- Mostrar la estructura de la tabla 
+describe cliente;
+-- Inserción de Datos 
+insert into cliente values('13556778-9','José López', 'los tucanes 444','228876655');
+insert into cliente values('14888545-0','Ana Mora', 'pasaje lugano 67','225567664');
+-- Mostrar datos
+select * from cliente;
+------------------
+insert into vehiculo values ('AM5667','Nissan','primera', '14888545-0');
+select * from vehiculo;
+
+--Borrar Tablas
+
+drop table vehiculo;
+drop table cliente;
