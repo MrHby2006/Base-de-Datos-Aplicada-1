@@ -1,0 +1,20 @@
+CREATE TABLE cliente (Rut VARCHAR2(15), Nombre VARCHAR2(200), Email VARCHAR2(20), Sexo VARCHAR2(1), Estado VARCHAR2(1));
+desc cliente;
+
+ALTER TABLE cliente ADD CONSTRAINT Email_uniq unique(Email);
+
+--Revisemos
+select * from user_constraints where table_name = 'CLIENTE';
+
+--Probemos algunos ejemplos
+ALTER TABLE cliente ADD CONSTRAINT chk_sexo CHECK(Sexo in ('H','M'));
+
+ALTER TABLE cliente ADD CONSTRAINT rut_pk PRIMARY KEY(Rut);
+
+ALTER TABLE cliente MODIFY nombre CONSTRAINT nom_nn NOT NULL;
+
+select * from user_constraints where table_name = 'CLIENTE';
+
+CREATE TABLE cuenta (Numero VARCHAR2(15), Saldo NUMBER(20,0), Tipo VARCHAR2(20), Rut VARCHAR2(15));
+--Clave Foránea
+ALTER TABLE cuenta ADD CONSTRAINT rut_fk FOREIGN KEY(Rut) REFERENCES cliente(Rut);
