@@ -1,0 +1,90 @@
+--Comprobar y documentar codigo
+create table cliente (Rut VARCHAR2(15), Nombre VARCHAR2(20), Email VARCHAR2(20), Sexo VARCHAR2(1), Estado VARCHAR2(1));
+
+alter table cliente add constraint Email_uniq unique(Email);
+
+alter table cliente add constraint chk_sexo check(Sexo in ('H','M'));
+
+alter table cliente add constraint chk_estado check(Estado in ('A','R'));
+
+alter table cliente add constraint Rut_pk primary key(Rut);
+
+alter table cliente modify Nombre constraint nom_nn not null;
+
+--Revisamos
+select * from user_constraints where table_name = 'CLIENTE';
+
+--Probemos con otra tabla
+create table cuenta(Numero VARCHAR2(15), saldo VARCHAR2(20), Tipo VARCHAR2(20), Rut VARCHAR2(15));
+
+alter table cuenta add constraint rut_fk foreign key(Rut) references cliente(Rut);
+
+alter table cuenta modify saldo constraint Sal_nn not null;
+
+alter table cuenta modify tipo constraint tipo_nn not null;
+
+alter table cuenta add constraint pk_num primary key(numero);
+
+--Revisamos
+select * from user_constraints where table_name = 'CUENTA';
+--Para borrar constraints
+alter table cuenta drop constraint rut_fk;
+
+alter table cliente drop constraint nom_nn;
+
+--Revisemos de nuevo
+select * from user_constraints where table_name = 'CLIENTE';
+select * from user_constraints where table_name = 'CUENTA';
+
+--Creación de tabla con restricciones
+create table productos( 
+codigo int,
+nombre varchar2(40) constraint nom_nn not null,
+descripcion varchar2(50) constraint des_nn not null,
+cantidad number(10,0),
+precio   number(20,0),
+constraint cod_pk primary key(codigo),
+constraint cant_chk check(cantidad>0),
+constraint pre_chk check(precio>0));
+----------------------------------------------
+Insertar datos
+insert into productos values(10,'leche','producto lacteo', 50, 500); 
+
+Mostrar información
+select * from productos;
+Ver la estructura de la tabla
+describe productos;
+
+Agregar una columna a la tabla
+alter table productos add proveedor varchar2(40);
+Actualizar información de una Tabla
+update productos
+set proveedor='soprole'
+where codigo =10;
+
+Agregar una restricción a la columna proveedor
+alter table productos modify proveedor constraint prov_nn not null;
+Eliminar una columna de una tabla
+-----------------------------------
+alter table productos drop column descripcion;
+
+Modificar un tipo de dato de una columna
+-----------------------------------------
+alter table productos modify nombre varchar2(30);
+
+Actualizar la columna precio para que este vacia
+------------------------------------------------
+update productos 
+set precio = null
+where codigo = 10;
+
+Cambiar el nombre a una columna
+--------------------------------
+ alter table productos rename column nombre to nomprod;
+Borrar filas de la tabla
+------------------------
+delete from productos where codigo=10;
+Borrar la Tabla
+---------------
+drop table productos;
+ table_name = 'CLIENTE';
